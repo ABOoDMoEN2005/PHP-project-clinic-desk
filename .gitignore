@@ -1,0 +1,23 @@
+# ملفات لا ترفعها على GitHub أبداً!
+
+# بيانات الاتصال بقاعدة البيانات - سرية!
+config/database.php
+
+# مجلد AdminLTE كبير - بنحمله يدوياً
+public/assets/adminlte/
+
+# ملفات المستخدمين المرفوعة
+public/uploads/avatars/*
+public/uploads/doctor_photos/*
+public/uploads/prescriptions/*
+
+# ما نحذف ملفات الحماية
+!public/uploads/avatars/index.php
+!public/uploads/doctor_photos/index.php
+!public/uploads/prescriptions/index.php
+!public/uploads/prescriptions/.htaccess
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+*.log
